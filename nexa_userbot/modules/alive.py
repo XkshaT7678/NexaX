@@ -72,21 +72,21 @@ async def pyroalive(_, message: Message):
     uptime = get_readable_time((time.time() - StartTime))
     alive_bef_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
     get_alive_msg = await get_custom_alive_msg()
-    custom_alive_msg = get_alive_msg if get_alive_msg else "Heya, I'm Using Nexa Userbot"
+    custom_alive_msg = get_alive_msg if get_alive_msg else "HueHue"
     alive_pic = "cache/NEXAUB.png"
     alive_msg = f"""
 **{custom_alive_msg}**
 
 
-**Nexa UserBot is Alive**
+**Nexa is Alive**
     
     **Python Version:** `{python_version}`
     **Pyrogram Version:** `{pyrogram_version}`
-    **Nexa Userbot Version:** `{NEXAUB_VERSION}`
+    **Nexa Version:** `{NEXAUB_VERSION}`
     **Uptime: `{uptime}`**
 
 
-**Deploy Your Own: @NexaBotsUpdates**"""
+**Support Channel: [Channel](https://t.me/Nexa2Channel)**"""
     await alive_bef_msg.delete()
     await NEXAUB.send_photo(chat_id=message.chat.id, photo=alive_pic, caption=alive_msg)
 
