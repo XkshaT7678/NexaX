@@ -1,6 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
-# Credits: Developers Userbot
+
 
 import traceback
 import sys
@@ -20,13 +18,13 @@ CMD_HELP.update(
         "eval": f"""
 **Eval**
 
-  ✘ `eval` - To Run Pyrogram Evaluations
+  ✘ `eval` - To Run Python Codes
   ✘ `sh` - To Run commands in shell
 
 **Example:**
 
   ✘ `eval`,
-   ⤷ Send with pyrogram command = `{Config.CMD_PREFIX}eval await message.reply("Yo, wassup!")`
+   ⤷ Send with python command = `{Config.CMD_PREFIX}eval await message.reply("Yo, wassup!")`
 
   ✘ `sh`,
    ⤷ Send with bash command = `{Config.CMD_PREFIX}sh pip3 install cowsay`
