@@ -1,5 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
+
 import os
 
 from pyrogram.types import Message
@@ -63,7 +62,7 @@ async def set_sudo(_, message: Message):
   is_id_ok = sudo_user_id.isnumeric()
   if is_id_ok is True:
     await add_sudo(sudo_user_id)
-    await sudo_msg.edit(f"**Successfully Added New Sudo User** \n\n**User ID:** `{sudo_user_id}`")
+    await sudo_msg.edit(f"**Successfully Added Sudo User** \n\n**User ID:** `{sudo_user_id}`")
     await restart_nexaub()
   else:
     await sudo_msg.edit("`Please give a valid user id to add as a sudo user`")
