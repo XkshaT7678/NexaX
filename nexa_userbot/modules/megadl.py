@@ -1,6 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa Userbot
-# Experimantal Mega.nz Downloader Plugin (Uses megatools)
+
 
 import os
 import subprocess
