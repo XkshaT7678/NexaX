@@ -1,5 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
+
 import os
 
 from pyrogram import filters
@@ -26,8 +25,8 @@ CMD_HELP.update(
 **Example:**
 
   ✘ `gban`,
-   ⤷ by Userid = `.gban 1234567 Test Gban`
-   ⤷ by Username = `.gban @Spammer_Guy Test Gban`
+   ⤷ by Userid = `.gban 1234567`
+   ⤷ by Username = `.gban @username`
    ⤷ Or Just Reply to a message from user with reason to Gban!
 
   ✘ `gban`,
@@ -68,7 +67,7 @@ async def me_goin_oflin(_, message: Message):
     else:
         return await gban_msg.edit("`Give a User ID, Username or Reply to a user message to Gban`")
     if gban_uid in nexaub_devs:
-        return await gban_msg.edit("`Sorry I can't Gban Dev of me")
+        return await gban_msg.edit("`Sorry I can't Gban My Developer")
     if gban_uid == nexaub_owner.id:
         return await gban_msg.edit("`Wtf? You are trying to gban yourself?`")
     is_gbanned = await get_gban_reason(gban_uid)
