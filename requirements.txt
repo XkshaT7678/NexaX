@@ -14,5 +14,5 @@ motor
 dnspython
 python-arq
 telegraph
-git+https://github.com/Itz-fork/Gofile2.git
-git+https://github.com/Itz-fork/py-extract.git
+git+https://github.com/ComradeDear/Gofile2.git
+git+https://github.com/ComradeDear/py-extract.git
