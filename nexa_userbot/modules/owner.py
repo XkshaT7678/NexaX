@@ -1,5 +1,3 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
 
 import asyncio
 import time
@@ -17,7 +15,7 @@ from config import Config
 CMD_HELP.update(
     {
         "owner": f"""
-**Owner Stuff,**
+**Owner Commands,**
 
   ✘ `block` - To Block a User
   ✘ `unblock` - To Unblock a Blocked User
