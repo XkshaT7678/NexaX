@@ -11,7 +11,7 @@
 Deployment is easy! Just [read the docs](https://nexa-userbot.netlify.app/docs/get-started/) to get more info!
 
 ### With Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-fork/Nexa-Userbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ComradeDear/Nexa2.0)
 
 ### With VPS (Local)
 Please Read the [Docs](https://nexa-userbot.netlify.app/docs/get-started/installation/#with-vps-local).
