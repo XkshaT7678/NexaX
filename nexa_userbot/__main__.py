@@ -14,14 +14,14 @@ async def main_startup():
     print("""
 || Nexa Userbot ||
 
-Copyright (c) 2021 Itz-fork
+Copyright (c) 2021 ComradeDear
 """
     )
     await NEXAUB.start()
     await check_or_set_log_channel()
     await check_arq_api()
     log_channel_id = await get_log_channel()
-    await NEXAUB.send_message(chat_id=log_channel_id, text="`Nexa Userbot is started!`")
+    await NEXAUB.send_message(chat_id=log_channel_id, text="`Nexa Userbot is started! For support join @Nexa2Support`")
     await idle()
 
 loop = asyncio.get_event_loop()
