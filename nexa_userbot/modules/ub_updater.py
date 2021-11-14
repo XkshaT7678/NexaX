@@ -1,6 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
-# Credits: Nexa Userbot | Zect Userbot
+
 
 import heroku3
 import asyncio
@@ -23,8 +21,8 @@ CMD_HELP.update(
         "updater": """
 **Updater**
 
-  ✘ `update` - To Updater Your Userbot
-  ✘ `restart` - To Restart Your Userbot (Heroku Only)
+  ✘ `update` - To Update NEXA-UserBot
+  ✘ `restart` - To Restart NEXA-UserBot (Heroku Only)
   ✘ `logs` - To Get Logs of Your Userbot (Heroku Only)
 """
     }
@@ -32,7 +30,7 @@ CMD_HELP.update(
 
 mod_file = os.path.basename(__file__)
 
-UPSTREAM_REPO_URL = "https://github.com/Itz-fork/Nexa-Userbot"
+UPSTREAM_REPO_URL = "https://github.com/ComradeDear/nexa2.0"
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
 )
