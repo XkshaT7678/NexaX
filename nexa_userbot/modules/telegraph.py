@@ -1,5 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
+
 import os
 
 from telegraph import Telegraph, upload_file
