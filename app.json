@@ -1,5 +1,5 @@
 {
-    "name": "Nexa Userbot",
+    "name": "NEXA-UserBot",
     "description*: "Telegam USERBot",
     "logo": "https://telegra.ph/file/a2471aa31028b2c429390.jpg",
     "keywords": [
@@ -8,7 +8,7 @@
        
     ],
     "website": "https://t.me/Nexa2Channel",
-    "repository": "https://github.com/ComradeDear/nexa2.0",
+    "repository": "https://github.com/ComradeDear/Nexa2.0",
     "success_url": "https://t.me/Nexa2Channel",
     "env": {
         "APP_ID": {
