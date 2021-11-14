@@ -81,13 +81,13 @@ async def upstream(client, message):
         repo = Repo.init()
         origin = repo.create_remote("upstream", off_repo)
         origin.fetch()
-        repo.create_head("master", origin.refs.master)
-        repo.heads.master.set_tracking_branch(origin.refs.master)
+        repo.create_head("main", origin.refs.main)
+        repo.heads.master.set_tracking_branch(origin.refs.main)
         repo.heads.master.checkout(True)
     ac_br = repo.active_branch.name
-    if ac_br != "master":
+    if ac_br != "main":
         await status.edit(
-            f"`Can't update your Nexa-Userbot becuase you're using a custom branch.` \n\n**Default Branch:** `master` \n**You are on:** `{ac_br}` \n`Please change to master branch.`"
+            f"`Can't update your Nexa-Userbot becuase you're using a custom branch.` \n\n**Default Branch:** `main` \n**You are on:** `{ac_br}` \n`Please change to main branch.`"
         )
         repo.__del__()
         return
@@ -123,7 +123,7 @@ async def upstream(client, message):
                 )
         else:
             await status.edit(
-                f"\n**Nexa-Userbot is Uptodate with** [{ac_br}]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n",
+                f"\n**Nexa-Userbot is Up to date with** [{ac_br}]({UPSTREAM_REPO_URL}/tree/{ac_br})**\n",
                 disable_web_page_preview=True,
             )
             repo.__del__()
