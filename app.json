@@ -1,15 +1,15 @@
 {
     "name": "Nexa Userbot",
-    "description": "Simple and Light Weight Pyrogram Userbot",
+    "description*: "Telegam USERBot",
     "logo": "https://telegra.ph/file/a2471aa31028b2c429390.jpg",
     "keywords": [
         "userbot",
-        "Telegram Bot",
-        "nexa userbot"
+        "Telegram UserBot",
+       
     ],
-    "website": "https://t.me/NexaBotsUpdates",
-    "repository": "https://github.com/Itz-fork/Nexa-Userbot",
-    "success_url": "https://t.me/NexaBotsUpdates",
+    "website": "https://t.me/Nexa2Channel",
+    "repository": "https://github.com/ComradeDear/nexa2.0",
+    "success_url": "https://t.me/Nexa2Channel",
     "env": {
         "APP_ID": {
             "description": "Your APP_ID from my.telegram.org",
@@ -21,15 +21,15 @@
         },
         "CMD_PREFIX": {
             "description": "Command prefix",
-            "required": false,
+            "required": true,
             "value": "."
         },
         "HEROKU_APP_NAME": {
-            "description": "Your Heroku App Name",
+            "description": "Your Heroku App Name, required for updater to work.",
             "required": true
         },
         "HEROKU_API_KEY": {
-            "description": "Your Heroku API KEY",
+            "description": "Your Heroku API KEY, required for updater to work.",
             "required": true
         },
         "MONGODB_URL": {
