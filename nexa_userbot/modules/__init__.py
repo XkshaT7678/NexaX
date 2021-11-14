@@ -1,6 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
-# Credits: Developers Userbot
+
 
 import glob
 from os.path import dirname, basename, isfile, join
