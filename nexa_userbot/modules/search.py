@@ -1,6 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
-# Credits: Friday Userbot | DevsExpo
+
 
 import os
 import re
