@@ -1,5 +1,3 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
 
 import requests
 import os
