@@ -1,5 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
+
 
 import os
 import importlib
@@ -22,10 +21,10 @@ CMD_HELP.update(
 **Example:**
 
   ✘ `install`
-   ⤷ Reply to pyrogram module made by Nexa UB Author with `{Config.CMD_PREFIX}install`
+   ⤷ Reply to a program plugin with `{Config.CMD_PREFIX}install`
 
 
-**Note:** `All Official Plugins are available at` **@NexaUBPlugins**! `Please don't install unofficial Plugins!`
+**Note:** `All Official Plugins are available at` **@Nexa2Plugins**!For More -->> [Support Group](https://t.me/Nexa2Support)
 """
     }
 )
