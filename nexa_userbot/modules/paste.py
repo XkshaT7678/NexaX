@@ -1,6 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
-# Thanks to: Friday Userbot for idea / trick
+
 
 import os
 import requests
@@ -17,7 +15,7 @@ CMD_HELP.update(
         "paste": f"""
 **Paste,**
 
-  ✘ `paste` - To Paste Text to Hastebin
+  ✘ `paste` - To Paste Text to Pastebin
 
 **Example:**
 
