@@ -67,10 +67,10 @@ def get_readable_time(seconds: int) -> str:
 @nexaub_on_cmd(command="alive", modlue=mod_file)
 async def pyroalive(_, message: Message):
     uptime = get_readable_time((time.time() - StartTime))
-    alive_bef_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
+    alive_bef_msg = await e_or_r(nexaub_message=message, msg_text="`.....`")
     get_alive_msg = await get_custom_alive_msg()
-    custom_alive_msg = get_alive_msg if get_alive_msg else "HueHue"
-    alive_pic = "cache/NEXAUB.png"
+    custom_alive_msg = get_alive_msg if get_alive_msg else "`NEXA-UserBot is Up.`"
+    alive_pic = "https://telegra.ph/file/e444b26d3a30887f381be.jpg"
     alive_msg = f"""
 **{custom_alive_msg}**
 
