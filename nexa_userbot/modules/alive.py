@@ -1,6 +1,4 @@
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
-# Credits: Developers Userbot | Nexa Userbot
+
 
 import time
 import os
@@ -13,7 +11,6 @@ from nexa_userbot import NEXAUB, CMD_HELP, NEXAUB_VERSION, StartTime
 from nexa_userbot.helpers.pyrogram_help import get_arg
 from nexa_userbot.core.nexaub_database.nexaub_db_conf import set_custom_alive_msg, get_custom_alive_msg
 from nexa_userbot.core.main_cmd import nexaub_on_cmd, e_or_r
-from nexa_userbot.core.startup_checks import check_or_set_log_channel
 from config import Config
 
 
