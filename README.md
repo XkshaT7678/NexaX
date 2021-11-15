@@ -30,5 +30,5 @@
 
 <p align="center">
   </br></br>
-  <b>Copyright (c) 2021 - [ComradeDear](https://gitHub.com/ComradeDear) | Nexa Userbot</b>
+  <b>Copyright (c) 2021 - [ComradeDear] | Nexa Userbot</b>
 </p>
