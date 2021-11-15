@@ -1,24 +1,4 @@
-Skip to content
-Itz-fork
-/
-Nexa-Userbot
-Public
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Nexa-Userbot/nexa_userbot/core/startup_checks.py
-@Itz-fork
-Itz-fork Changed docs url
- 1 contributor
-65 lines (59 sloc)  2.92 KB
-# Copyright (c) 2021 Itz-fork
-# Part of: Nexa-Userbot
+
 import asyncio
 from pyrogram.errors import YouBlockedUser
 from nexa_userbot import NEXAUB
