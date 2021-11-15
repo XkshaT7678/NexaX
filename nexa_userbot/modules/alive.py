@@ -81,7 +81,7 @@ async def pyroalive(_, message: Message):
  **•Pyrogram Version:** `{pyrogram_version}`
  **•Nexa Version:** `{NEXAUB_VERSION}`
  **•Uptime: `{uptime}`**
- **Support Group: [JOIN](https://t.me/Nexa2Support)**"""
+ **Support Group: [JOIN](https://t.me/NexaBotSupport)**"""
     await alive_bef_msg.delete()
     await NEXAUB.send_photo(chat_id=message.chat.id, photo=alive_pic, caption=alive_msg)
 
