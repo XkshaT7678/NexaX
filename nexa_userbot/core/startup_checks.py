@@ -1,4 +1,24 @@
-
+Skip to content
+Itz-fork
+/
+Nexa-Userbot
+Public
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+Nexa-Userbot/nexa_userbot/core/startup_checks.py
+@Itz-fork
+Itz-fork Changed docs url
+ 1 contributor
+65 lines (59 sloc)  2.92 KB
+# Copyright (c) 2021 Itz-fork
+# Part of: Nexa-Userbot
 import asyncio
 from pyrogram.errors import YouBlockedUser
 from nexa_userbot import NEXAUB
@@ -8,22 +28,23 @@ from config import Config
 # Log Channel Checker
 async def check_or_set_log_channel():
     try:
-        log_channel_id = await get_log_channel()
-        if log_channel_id:
-            return [True, log_channel_id]
+        al_log_channel = await get_log_channel()
+        if al_log_channel:
+            return [True, al_log_channel]
         else:
-            log_channel = await NEXAUB.create_channel(title="Nexa Userbot Logs", description="Logs Of NEXA-UserBot. Don't delete this channel.")
+            log_channel = await NEXAUB.create_channel(title="Nexa Userbot Logs", description="Logs of your Nexa Userbot")
             welcome_to_nexaub = f"""
-**Heya! Myself NEXA-UserBot, A powerful Userbot.**
- Head To **@Nexa2Support** for help.
-
-**~ Nexa Userbot **"""
+**Heya! I am Nexa Userbot**
+ If you found any error, bug or even a Feature Request please report it at **@Nexa2_support**
+**⌲ Quick Start,**
+If you don't know how to use this Userbot please send `{Config.CMD_PREFIX}help` in any chat. It'll show all plugins your userbot has. You can use those plugin names to get info about how to use it. Also check out [Docs](https://nexaub.itz-fork.xyz/)
+ **~ Nexa **"""
             log_channel_id = log_channel.id
             await set_log_channel(log_channel_id)
             await NEXAUB.send_message(chat_id=log_channel_id, text=welcome_to_nexaub, disable_web_page_preview=True)
             return [True, log_channel_id]
     except Exception as e:
-        print(f"Error \n\n{e} \n\nPlease check all variables and try again! \nReport this with logs at @Nexa2_Support if the problem persists!")
+        print(f"Error \n\n{e} \n\nPlease check all variables and try again! \nReport this with logs at @Nexa2Support if the problem persists!")
         exit()
 
 
