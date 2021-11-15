@@ -12,17 +12,17 @@ from config import Config
 async def main_startup():
     print("""
 || Nexa Userbot ||
-Copyright (c) 2021 ComradeDear 
+Copyright (c) 2021 ComradeDear
 """
     )
     await NEXAUB.start()
     await check_or_set_log_channel()
     await check_arq_api()
     log_channel_id = await get_log_channel()
-    if log_channel_id:
+    try:
         await NEXAUB.send_message(chat_id=log_channel_id, text="`Nexa Userbot is started!`")
-    else:
-        print("Nexa Userbot is started!")
+    except:
+        print("WARNING: Log channel is not in the database or the provided one isn't valid one. Please add a valid channel id!")
     await idle()
 
 loop = asyncio.get_event_loop()
