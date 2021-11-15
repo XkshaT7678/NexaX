@@ -28,6 +28,9 @@
 - Pyrogram
 
 
+# Special thanks
+To [Dear Comrade](https://github.com/CoolBruh) 
+
 
 - Fork and Star The Repository!
 - Kangers Kang With Credits !!!!
