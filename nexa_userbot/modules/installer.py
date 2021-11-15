@@ -24,7 +24,7 @@ CMD_HELP.update(
    ⤷ Reply to a program plugin with `{Config.CMD_PREFIX}install`
 
 
-**Note:** `All Official Plugins are available at` **@Nexa2Plugins**!For More -->> [Support Group](https://t.me/Nexa2Support)
+**Note:** `All Official Plugins are available at` **@NexaUserbotPlugins**!For More -->> [Support Group](https://t.me/Nexa2Support)
 """
     }
 )
