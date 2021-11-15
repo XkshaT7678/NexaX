@@ -22,6 +22,10 @@
 - `PYRO_STR_SESSION` - Pyrogram string session of your telegram account. Get it from [here](https://t.me/@PyroStringRobot)
 - `MONGODB_URL` - Your MongoDB url. Get in from [here](https://www.mongodb.com/). [Tutorial Video](https://youtu.be/0aYrJTfYBHU)
 
+# Support
+<a href="https://t.me/nexabotChannel"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/NexaBotSupport"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
 
 # Credits ❤️
 - Everyone 
