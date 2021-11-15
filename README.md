@@ -22,12 +22,13 @@
 - `PYRO_STR_SESSION` - Pyrogram string session of your telegram account. Get it from [here](https://t.me/@PyroStringRobot)
 - `MONGODB_URL` - Your MongoDB url. Get in from [here](https://www.mongodb.com/). [Tutorial Video](https://youtu.be/0aYrJTfYBHU)
 
-# Credits ❤️,
-- Everyone
-- Pyrogram
-
+==============
+# Credits ❤️,|
+- Everyone.  |
+- Pyrogram.  |
+==============
 - Fork and Star The Repository!
-* Kangers Kang With Credits !!!!
+- Kangers Kang With Credits !!!!
 
 <p align="center">
   </br></br>
