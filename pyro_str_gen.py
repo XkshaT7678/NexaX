@@ -17,7 +17,7 @@ async def pyro_str():
     async with Client(":memory:", api_id, api_hash) as NEXAUB:
         pyro_session = await NEXAUB.export_session_string()
         session_msg = await NEXAUB.send_message("me", f"`{pyro_session}`")
-        await session_msg.reply_text("Successfully Generated String Session! Thanks for trying [Nexa Userbot](https://github.com/ComradeDear/nexa2.0) \n\n**Join @Nexa2channel**", disable_web_page_preview=True)
+        await session_msg.reply_text("Successfully Generated String Session! Thanks for trying [Nexa Userbot](https://github.com/ComradeDear/NexaUserBot) \n\n**Join @Nexabotchannel**", disable_web_page_preview=True)
         print("\nString Session has been sent to your saved messages. Please check it. Thank You!\n")
 
 if __name__ == "__main__":
