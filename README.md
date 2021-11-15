@@ -26,6 +26,7 @@
 - Everyone
 - Pyrogram
 
+- Fork and Star The Repository!
 * Kangers Kang With Credits !!!!
 
 <p align="center">
