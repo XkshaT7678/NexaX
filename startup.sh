@@ -3,7 +3,7 @@ echo "
 
 Starting Now...
 
-Copyright (c) 2021 ComradeDear | @Nexa2channel
+Copyright (c) 2021 ComradeDear | @NexaBotChannel
 "
 
 start_nexaub () {
