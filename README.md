@@ -26,9 +26,9 @@
 - Everyone
 - Pyrogram
 
-# Kangers Kang With Credits !!!!
+* Kangers Kang With Credits !!!!
 
 <p align="center">
   </br></br>
-  <b>Copyright (c) 2021 - [ComradeDear](GitHub.com/ComradeDear) | Nexa Userbot</b>
+  <b>Copyright (c) 2021 - [ComradeDear](https://gitHub.com/ComradeDear) | Nexa Userbot</b>
 </p>
