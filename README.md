@@ -23,14 +23,12 @@
 - `MONGODB_URL` - Your MongoDB url. Get in from [here](https://www.mongodb.com/). [Tutorial Video](https://youtu.be/0aYrJTfYBHU)
 
 # Credits ❤️,
-- Developers Userbot
-- Friday Userbot [For some plugins]
-- TheHamkercat [For some plugins]
+- Everyone
+- Pyrogram
 
-# License
-This repository is license under [GPL-3 License](https://github.com/Comradedear/NexaUserBot/blob/master/LICENSE)
+# Kangers Kang With Credits !!!!
 
 <p align="center">
   </br></br>
-  <b>Copyright (c) 2021 - ComradeDear | Nexa Userbot</b>
+  <b>Copyright (c) 2021 - [ComradeDear](GitHub.com/ComradeDear) | Nexa Userbot</b>
 </p>
