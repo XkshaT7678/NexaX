@@ -30,7 +30,7 @@ CMD_HELP.update(
 
 mod_file = os.path.basename(__file__)
 
-UPSTREAM_REPO_URL = "https://github.com/ComradeDear/nexa2.0"
+UPSTREAM_REPO_URL = "https://github.com/ComradeDear/NexaUserBot"
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
 )
